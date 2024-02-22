@@ -1,0 +1,39 @@
+div
+{
+    border: 1px solid yellowgreen;
+    width: 400px;
+}
+
+ul
+{
+    list-style-type: square;
+}
+
+.nav li
+/* nav class 안에 li 안에만 주겠다는 뜻 (띄어쓰기는 안에 있는 파일만 / ,는 둘다 적용 */
+{
+    display: inline-block;
+    width: 60px;
+    background-color: tomato;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus
+{
+    text-decoration: none;
+    color: yellow;
+    font-size: 16px;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 16px;
+}
